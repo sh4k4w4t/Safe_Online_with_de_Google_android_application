@@ -2,6 +2,8 @@ package com.alivepython.safeonline.homeItem.drive;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,9 +42,41 @@ public class DriveAdapter extends RecyclerView.Adapter<DriveAdapter.MyHolder> {
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(v -> {
-            if (arrayList.get(position).getTitle().equals("Search Engine")){
-                //context.startActivity(new Intent(context, Individual_Plan.class));
-                Toast.makeText(v.getContext(), "Still Working..", Toast.LENGTH_SHORT).show();
+            if (arrayList.get(position).getTitle().equals("Proton Drive")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("NextCloud")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Mega")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("pCloud")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Yandex Disk")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Sync")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
             }
 
         });

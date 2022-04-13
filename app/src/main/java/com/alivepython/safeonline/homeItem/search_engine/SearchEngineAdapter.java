@@ -2,6 +2,8 @@ package com.alivepython.safeonline.homeItem.search_engine;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,9 +42,41 @@ public class SearchEngineAdapter extends RecyclerView.Adapter<SearchEngineAdapte
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(v -> {
-            if (arrayList.get(position).getTitle().equals("Search Engine")){
-                //context.startActivity(new Intent(context, Individual_Plan.class));
-                Toast.makeText(v.getContext(), "Still Working..", Toast.LENGTH_SHORT).show();
+            if (arrayList.get(position).getTitle().equals("DuckDuckGo")){
+                String full_address = context.getResources().getString(R.string.duckduckgo);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Searx.me")){
+                String full_address = context.getResources().getString(R.string.searx);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Ecosia")){
+                String full_address = context.getResources().getString(R.string.ecosia);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("StartPage")){
+                String full_address = context.getResources().getString(R.string.startpage);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Qwant")){
+                String full_address = context.getResources().getString(R.string.qwant);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Yandex")) {
+                String full_address = context.getResources().getString(R.string.yandex);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
             }
 
         });

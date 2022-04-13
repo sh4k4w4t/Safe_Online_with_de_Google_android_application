@@ -8,4 +8,90 @@
     <string name="facebook_url">https://www.facebook.com/sh4k4w4t</string>
     <string name="twitter_url">https://www.twitter.com/sh4k4w4t</string>
     <string name="google_address">https://www.google.com</string>
+
+
+<!--    Search Engine..-->
+    <string name="duckduckgo">https://duckduckgo.com/</string>
+    <string name="searx">https://searx.tk/</string>
+    <string name="ecosia">https://www.ecosia.org</string>
+    <string name="startpage">https://www.startpage.com/</string>
+    <string name="qwant">https://www.qwant.com/</string>
+    <string name="yandex">https://yandex.com/</string>
+
+
+    <!--   Email..-->
+    <string name="yaani">https://www.yaanimail.com/</string>
+    <string name="tutanota">https://tutanota.com/</string>
+    <string name="yandexMail">https://mail.yandex.com/</string>
+    <string name="protonmail">https://protonmail.com/</string>
+    <string name="cTemplar">https://ctemplar.com/</string>
+    <string name="Gmx">https://www.gmx.com/</string>
+
+    <!--   Drive..-->
+    <string name="protonDrive">https://drive.protonmail.com/</string>
+    <string name="nextCloud">https://nextcloud.com/</string>
+    <string name="Mega">https://mega.io/</string>
+    <string name="pcloud">https://www.pcloud.com/</string>
+    <string name="yandexDisk">https://disk.yandex.com/</string>
+    <string name="sync">https://www.sync.com/</string>
+
+    <!--   OS..-->
+    <string name="linux">https://www.linux.org/</string>
+    <string name="solaris">https://www.oracle.com/solaris/solaris11/</string>
+    <string name="windows">https://www.microsoft.com/en-us/windows</string>
+    <string name="mac">https://www.apple.com/mac/</string>
+
+    <!--   social sites..-->
+    <string name="mastodon">https://joinmastodon.org/</string>
+    <string name="reddit">https://www.reddit.com/</string>
+    <string name="linkedin">https://www.linkedin.com/</string>
+    <string name="keybase">https://keybase.io/</string>
+    <string name="twitter">https://twitter.com/</string>
+
+    <!--   Calender.-->
+    <string name="tutanota_cal">https://tutanota.com/calendar/</string>
+    <string name="outlook_cal">https://outlook.live.com/calendar/</string>
+    <string name="protonCal">https://calendar.protonmail.com/</string>
+
+
+    <!--   Chat Apps.-->
+    <string name="telegram">https://telegram.org/</string>
+    <string name="signal">https://signal.org/en/</string>
+    <string name="skype">https://www.skype.com/en/features/instant-messaging/</string>
+    <string name="session">https://getsession.org/</string>
+    <string name="threema">https://threema.ch/en/</string>
+    <string name="wechat">https://www.wechat.com/en/</string>
+
+    <!--   MAp-->
+    <string name="maps_me">https://maps.me/</string>
+    <string name="bingMaps">https://www.bing.com/maps/</string>
+    <string name="waze">https://www.waze.com/</string>
+    <string name="osmand">https://osmand.net/</string>
+    <string name="hereWeGo">https://wego.here.com/</string>
+
+    <!--   Browser-->
+    <string name="firefox">https://www.mozilla.org/en-US/firefox/new/</string>
+    <string name="brave">https://brave.com/</string>
+    <string name="yandex_brow">https://browser.yandex.com/</string>
+    <string name="vivaldi">https://vivaldi.com/</string>
+    <string name="tor">https://www.torproject.org/download/</string>
+    <string name="opera">https://www.opera.com/</string>
+    <string name="avast">https://www.avast.com/en-us/secure-browser</string>
+
+    <!--   remote client-->
+    <string name="tightvnc">http://tightvnc.com/download.html</string>
+    <string name="anydesk">https://www.anydesk.com/</string>
+    <string name="teamviewer">https://www.teamviewer.com/en/</string>
+    <string name="joinme">https://www.join.me/</string>
+    <string name="jitsi">https://jitsi.org/</string>
+    <string name="bipmeet">https://www.bipmeet.com/</string>
+
+    <!--   Host-->
+    <string name="alibaba">https://www.alibabacloud.com</string>
+    <string name="amazon">https://www.amazon.com/clouddrive</string>
+    <string name="Blue_host">https://www.bluehost.com/help/article/cloud-hosting</string>
+    <string name="nameCheap">https://www.namecheap.com/</string>
+
+
+
 </resources>

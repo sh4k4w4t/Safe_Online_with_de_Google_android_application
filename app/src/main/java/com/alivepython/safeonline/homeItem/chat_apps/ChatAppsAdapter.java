@@ -2,6 +2,8 @@ package com.alivepython.safeonline.homeItem.chat_apps;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,11 +42,42 @@ public class ChatAppsAdapter extends RecyclerView.Adapter<ChatAppsAdapter.MyHold
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(v -> {
-            if (arrayList.get(position).getTitle().equals("Search Engine")){
-                //context.startActivity(new Intent(context, Individual_Plan.class));
-                Toast.makeText(v.getContext(), "Still Working..", Toast.LENGTH_SHORT).show();
+            if (arrayList.get(position).getTitle().equals("Telegram")){
+                String full_address = context.getResources().getString(R.string.telegram);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
             }
-
+            if (arrayList.get(position).getTitle().equals("Signal")){
+                String full_address = context.getResources().getString(R.string.signal);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Skype")){
+                String full_address = context.getResources().getString(R.string.skype);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Session")){
+                String full_address = context.getResources().getString(R.string.session);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Threema")){
+                String full_address = context.getResources().getString(R.string.threema);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("WeChat")){
+                String full_address = context.getResources().getString(R.string.wechat);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
         });
     }
 

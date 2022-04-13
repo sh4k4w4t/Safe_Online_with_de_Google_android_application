@@ -30,13 +30,6 @@ public class DriveActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     DriveAdapter item_adapter;
 
-    TextView id1, id2;
-    AlertDialog.Builder builder;
-    ViewGroup viewGroup;
-    View dialogView;
-    AlertDialog alertDialog;
-    Button btn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -83,20 +76,6 @@ public class DriveActivity extends AppCompatActivity {
     public void onBackPressed() {
         startActivity(new Intent(getApplicationContext(), HomeActivity.class));
         super.onBackPressed();
-    }
-
-    private void passTitleAndDescription(String title, String description) {
-        builder = new AlertDialog.Builder(this);
-        viewGroup = findViewById(android.R.id.content);
-        dialogView = LayoutInflater.from(this).inflate(R.layout.custom_layout_for_item_with_button, viewGroup, false);
-        id1 = dialogView.findViewById(R.id.titleId);
-        id2 = dialogView.findViewById(R.id.descriptionId);
-        btn= dialogView.findViewById(R.id.website_button);
-        id1.setText(title);
-        id2.setText(description);
-        builder.setView(dialogView);
-        alertDialog = builder.create();
-        alertDialog.show();
     }
 
 }

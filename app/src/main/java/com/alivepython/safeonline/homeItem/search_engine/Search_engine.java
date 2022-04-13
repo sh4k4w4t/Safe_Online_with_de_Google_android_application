@@ -62,7 +62,6 @@ public class Search_engine extends AppCompatActivity {
         arrayList.add(new HomeItemGridPojo("StartPage", R.drawable.test_image));
         arrayList.add(new HomeItemGridPojo("Qwant", R.drawable.test_image));
         arrayList.add(new HomeItemGridPojo("Yandex", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("DocFile", R.drawable.test_image));
     }
 
     @Override

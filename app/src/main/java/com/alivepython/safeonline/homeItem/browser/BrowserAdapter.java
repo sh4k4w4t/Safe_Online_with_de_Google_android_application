@@ -45,11 +45,47 @@ public class BrowserAdapter extends RecyclerView.Adapter<BrowserAdapter.MyHolder
 
         holder.itemView.setOnClickListener(v -> {
             if (arrayList.get(position).getTitle().equals("Firefox")){
-                //context.startActivity(new Intent(context, Individual_Plan.class));
-//                Toast.makeText(v.getContext(), "Still Working..", Toast.LENGTH_SHORT).show();
-
+                String full_address = context.getResources().getString(R.string.firefox);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
             }
-
+            if (arrayList.get(position).getTitle().equals("Brave")){
+                String full_address = context.getResources().getString(R.string.brave);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Yandex")){
+                String full_address = context.getResources().getString(R.string.yandex);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Vivaldi")){
+                String full_address = context.getResources().getString(R.string.vivaldi);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Tor")){
+                String full_address = context.getResources().getString(R.string.tor);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Opera")){
+                String full_address = context.getResources().getString(R.string.opera);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
+            if (arrayList.get(position).getTitle().equals("Avast")){
+                String full_address = context.getResources().getString(R.string.avast);
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(full_address));
+                context.startActivity(i);
+            }
         });
     }
 
