@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Safe Online</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="email_me">md.shakawat.hossain@yandex.com</string>
+    <string name="facebook_url">https://www.facebook.com/sh4k4w4t</string>
+    <string name="twitter_url">https://www.twitter.com/sh4k4w4t</string>
+    <string name="google_address">https://www.google.com</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#1D5C52"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:id="@+id/nav_header">
+
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/nav_header_userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Tahsin Ahamed Buiyan"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="HomePage"/>
+        <item
+            android:id="@+id/nav_why_de_google"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Why de-Google ??"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Faq"/>
+        <item
+            android:id="@+id/nav_Developer_information"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Developer Information"/>
+
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/ic_launcher_background"
+                    android:title="Feedback"/>
+                <item
+                    android:id="@+id/nav_follow_me"
+                    android:icon="@drawable/ic_launcher_background"
+                    android:title="Follow Me"/>
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
