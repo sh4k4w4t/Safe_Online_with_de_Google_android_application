@@ -44,7 +44,7 @@ public class DriveActivity extends AppCompatActivity {
         gridListData();
         recyclerView = findViewById(R.id.home_item_recyclerView);
         recyclerView.setHasFixedSize(true);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(DriveActivity.this, 3);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(DriveActivity.this, 1);
         gridLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(gridLayoutManager);
 
@@ -55,11 +55,11 @@ public class DriveActivity extends AppCompatActivity {
 
     private void gridListData() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo("Proton Drive", R.drawable.test_image));
+        arrayList.add(new HomeItemGridPojo("Proton Drive", R.drawable.protonmail_icon_130850));
         arrayList.add(new HomeItemGridPojo("NextCloud", R.drawable.test_image));
         arrayList.add(new HomeItemGridPojo("Mega", R.drawable.test_image));
         arrayList.add(new HomeItemGridPojo("pCloud", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Yandex Disk", R.drawable.test_image));
+        arrayList.add(new HomeItemGridPojo("Yandex Disk", R.drawable.yandex_browser_logo_icon_152939));
         arrayList.add(new HomeItemGridPojo("Sync", R.drawable.test_image));
     }
 

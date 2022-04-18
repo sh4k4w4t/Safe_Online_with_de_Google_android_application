@@ -51,7 +51,7 @@ public class EmailActivity extends AppCompatActivity {
         gridListData();
         recyclerView = findViewById(R.id.home_item_recyclerView);
         recyclerView.setHasFixedSize(true);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(EmailActivity.this, 3);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(EmailActivity.this, 2);
         gridLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(gridLayoutManager);
 
@@ -62,13 +62,13 @@ public class EmailActivity extends AppCompatActivity {
 
     private void gridListData() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo("Yaani Mail", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Tutanota", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Yandex", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Protonmail", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("cTemplar", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Aol", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("GMX", R.drawable.test_image));
+        arrayList.add(new HomeItemGridPojo("Yaani Mail", R.drawable.mail_31108));
+        arrayList.add(new HomeItemGridPojo("Tutanota", R.drawable.tutanota_icon_146082));
+        arrayList.add(new HomeItemGridPojo("Yandex", R.drawable.yandex_browser_logo_icon_152939));
+        arrayList.add(new HomeItemGridPojo("Protonmail", R.drawable.protonmail_icon_130850));
+        arrayList.add(new HomeItemGridPojo("cTemplar", R.drawable.mailbox_mail_message_7239));
+        arrayList.add(new HomeItemGridPojo("Aol", R.drawable.aol_socialnetwork_17457));
+        arrayList.add(new HomeItemGridPojo("GMX", R.drawable.gms));
     }
 
     @Override

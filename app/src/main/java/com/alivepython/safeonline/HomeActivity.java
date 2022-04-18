@@ -79,7 +79,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         recyclerView.setAdapter(homeItem_adapter);
 
         //this section for image slider
-        int[] imgArray = {R.drawable.header_image_1, R.drawable.header_image_1, R.drawable.header_image_2};
+        int[] imgArray = {R.drawable.header_image_1, R.drawable.header_image_2};
         flipper = findViewById(R.id.viewFlipperID);
         for (int j : imgArray) {
             showImage(j);

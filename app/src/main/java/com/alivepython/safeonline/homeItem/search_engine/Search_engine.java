@@ -43,7 +43,7 @@ public class Search_engine extends AppCompatActivity {
         gridListData();
         recyclerView = findViewById(R.id.home_item_recyclerView);
         recyclerView.setHasFixedSize(true);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(Search_engine.this, 3);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(Search_engine.this, 1);
         gridLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(gridLayoutManager);
 
@@ -56,12 +56,12 @@ public class Search_engine extends AppCompatActivity {
 
     private void gridListData() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo("DuckDuckGo", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Searx.me", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Ecosia", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("StartPage", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Qwant", R.drawable.test_image));
-        arrayList.add(new HomeItemGridPojo("Yandex", R.drawable.test_image));
+        arrayList.add(new HomeItemGridPojo("DuckDuckGo", R.drawable.duckduckgo_logo_icon_170206));
+        arrayList.add(new HomeItemGridPojo("Searx.me", R.drawable.searx));
+        arrayList.add(new HomeItemGridPojo("Ecosia", R.drawable.ecosia_logo_icon_169212));
+        arrayList.add(new HomeItemGridPojo("StartPage", R.drawable.start));
+        arrayList.add(new HomeItemGridPojo("Qwant", R.drawable.qwant_logo_icon_170813));
+        arrayList.add(new HomeItemGridPojo("Yandex", R.drawable.yandex_browser_logo_icon_152939));
     }
 
     @Override
