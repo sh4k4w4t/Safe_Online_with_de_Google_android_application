@@ -24,7 +24,7 @@
         <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/custom_layout_for_item_with_button.xml" value="0.264" />
         <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/custom_layout_for_title_info.xml" value="0.2212962962962963" />
         <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/custom_listview_layout.xml" value="0.25" />
-        <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/home_item_custom_recycler_grid.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/home_item_custom_recycler_grid.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/list_row.xml" value="0.14351851851851852" />
         <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/nav_header.xml" value="0.11018518518518519" />
         <entry key="..\:/Users/User/Desktop/update/SafeOnline/app/src/main/res/layout/search_engine_custom_recycler_grid.xml" value="0.25" />
@@ -41,7 +41,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.14351851851851852" />
+        <option name="scale" value="0.11018518518518519" />
       </ProjectState>
     </option>
   </component>

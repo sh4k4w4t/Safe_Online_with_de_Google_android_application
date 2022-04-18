@@ -6,19 +6,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_launcher_background"
+            android:icon="@drawable/ic_baseline_home_24"
             android:title="HomePage"/>
         <item
             android:id="@+id/nav_why_de_google"
-            android:icon="@drawable/ic_launcher_background"
+            android:icon="@drawable/ic_baseline_why_degoogle_24"
             android:title="Why de-Google ??"/>
         <item
             android:id="@+id/nav_faq"
-            android:icon="@drawable/ic_launcher_background"
+            android:icon="@drawable/ic_baseline_question_24"
             android:title="Faq"/>
         <item
             android:id="@+id/nav_Developer_information"
-            android:icon="@drawable/ic_launcher_background"
+            android:icon="@drawable/ic_baseline_perm_device_information_24"
             android:title="Developer Information"/>
 
 
@@ -26,11 +26,11 @@
             <menu>
                 <item
                     android:id="@+id/nav_feedback"
-                    android:icon="@drawable/ic_launcher_background"
+                    android:icon="@drawable/ic_baseline_feedback_24"
                     android:title="Feedback"/>
                 <item
                     android:id="@+id/nav_follow_me"
-                    android:icon="@drawable/ic_launcher_background"
+                    android:icon="@drawable/ic_baseline_follow_the_signs_24"
                     android:title="Follow Me"/>
 
             </menu>
